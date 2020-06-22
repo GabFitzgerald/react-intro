@@ -1,5 +1,6 @@
 import React from "react"
 
 export default () => {
-    return <p>Bonjour!</p>
+    let name: string = "Matt"
+    return <p>Bonjour, {name}!</p>
 }
